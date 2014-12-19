@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C02A6C0B1A43CE9000049A7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02A6C0A1A43CE9000049A7E /* AppDelegate.swift */; };
+		C02A6C0D1A43CE9000049A7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02A6C0C1A43CE9000049A7E /* ViewController.swift */; };
+		C02A6C0F1A43CE9000049A7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02A6C0E1A43CE9000049A7E /* Images.xcassets */; };
+		C02A6C121A43CE9000049A7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02A6C101A43CE9000049A7E /* Main.storyboard */; };
+		C02A6C1E1A43CE9000049A7E /* instabtbu_for_macTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02A6C1D1A43CE9000049A7E /* instabtbu_for_macTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C02A6C181A43CE9000049A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C02A6BFD1A43CE9000049A7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C02A6C041A43CE9000049A7E;
+			remoteInfo = "instabtbu for mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C02A6C051A43CE9000049A7E /* instabtbu for mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "instabtbu for mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02A6C091A43CE9000049A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02A6C0A1A43CE9000049A7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C02A6C0C1A43CE9000049A7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C02A6C0E1A43CE9000049A7E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C02A6C111A43CE9000049A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C02A6C171A43CE9000049A7E /* instabtbu for macTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "instabtbu for macTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02A6C1C1A43CE9000049A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02A6C1D1A43CE9000049A7E /* instabtbu_for_macTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instabtbu_for_macTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C02A6C021A43CE9000049A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02A6C141A43CE9000049A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C02A6BFC1A43CE9000049A7E = {
+			isa = PBXGroup;
+			children = (
+				C02A6C071A43CE9000049A7E /* instabtbu for mac */,
+				C02A6C1A1A43CE9000049A7E /* instabtbu for macTests */,
+				C02A6C061A43CE9000049A7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C02A6C061A43CE9000049A7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C02A6C051A43CE9000049A7E /* instabtbu for mac.app */,
+				C02A6C171A43CE9000049A7E /* instabtbu for macTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C02A6C071A43CE9000049A7E /* instabtbu for mac */ = {
+			isa = PBXGroup;
+			children = (
+				C02A6C0A1A43CE9000049A7E /* AppDelegate.swift */,
+				C02A6C0C1A43CE9000049A7E /* ViewController.swift */,
+				C02A6C0E1A43CE9000049A7E /* Images.xcassets */,
+				C02A6C101A43CE9000049A7E /* Main.storyboard */,
+				C02A6C081A43CE9000049A7E /* Supporting Files */,
+			);
+			path = "instabtbu for mac";
+			sourceTree = "<group>";
+		};
+		C02A6C081A43CE9000049A7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C02A6C091A43CE9000049A7E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C02A6C1A1A43CE9000049A7E /* instabtbu for macTests */ = {
+			isa = PBXGroup;
+			children = (
+				C02A6C1D1A43CE9000049A7E /* instabtbu_for_macTests.swift */,
+				C02A6C1B1A43CE9000049A7E /* Supporting Files */,
+			);
+			path = "instabtbu for macTests";
+			sourceTree = "<group>";
+		};
+		C02A6C1B1A43CE9000049A7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C02A6C1C1A43CE9000049A7E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C02A6C041A43CE9000049A7E /* instabtbu for mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02A6C211A43CE9000049A7E /* Build configuration list for PBXNativeTarget "instabtbu for mac" */;
+			buildPhases = (
+				C02A6C011A43CE9000049A7E /* Sources */,
+				C02A6C021A43CE9000049A7E /* Frameworks */,
+				C02A6C031A43CE9000049A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "instabtbu for mac";
+			productName = "instabtbu for mac";
+			productReference = C02A6C051A43CE9000049A7E /* instabtbu for mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C02A6C161A43CE9000049A7E /* instabtbu for macTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02A6C241A43CE9000049A7E /* Build configuration list for PBXNativeTarget "instabtbu for macTests" */;
+			buildPhases = (
+				C02A6C131A43CE9000049A7E /* Sources */,
+				C02A6C141A43CE9000049A7E /* Frameworks */,
+				C02A6C151A43CE9000049A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C02A6C191A43CE9000049A7E /* PBXTargetDependency */,
+			);
+			name = "instabtbu for macTests";
+			productName = "instabtbu for macTests";
+			productReference = C02A6C171A43CE9000049A7E /* instabtbu for macTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C02A6BFD1A43CE9000049A7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "杨培文";
+				TargetAttributes = {
+					C02A6C041A43CE9000049A7E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C02A6C161A43CE9000049A7E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C02A6C041A43CE9000049A7E;
+					};
+				};
+			};
+			buildConfigurationList = C02A6C001A43CE9000049A7E /* Build configuration list for PBXProject "instabtbu for mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C02A6BFC1A43CE9000049A7E;
+			productRefGroup = C02A6C061A43CE9000049A7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C02A6C041A43CE9000049A7E /* instabtbu for mac */,
+				C02A6C161A43CE9000049A7E /* instabtbu for macTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C02A6C031A43CE9000049A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02A6C0F1A43CE9000049A7E /* Images.xcassets in Resources */,
+				C02A6C121A43CE9000049A7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02A6C151A43CE9000049A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C02A6C011A43CE9000049A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02A6C0D1A43CE9000049A7E /* ViewController.swift in Sources */,
+				C02A6C0B1A43CE9000049A7E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02A6C131A43CE9000049A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02A6C1E1A43CE9000049A7E /* instabtbu_for_macTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C02A6C191A43CE9000049A7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C02A6C041A43CE9000049A7E /* instabtbu for mac */;
+			targetProxy = C02A6C181A43CE9000049A7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C02A6C101A43CE9000049A7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C02A6C111A43CE9000049A7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C02A6C1F1A43CE9000049A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C02A6C201A43CE9000049A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C02A6C221A43CE9000049A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "instabtbu for mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C02A6C231A43CE9000049A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "instabtbu for mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C02A6C251A43CE9000049A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "instabtbu for macTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instabtbu for mac.app/Contents/MacOS/instabtbu for mac";
+			};
+			name = Debug;
+		};
+		C02A6C261A43CE9000049A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "instabtbu for macTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instabtbu for mac.app/Contents/MacOS/instabtbu for mac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C02A6C001A43CE9000049A7E /* Build configuration list for PBXProject "instabtbu for mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02A6C1F1A43CE9000049A7E /* Debug */,
+				C02A6C201A43CE9000049A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02A6C211A43CE9000049A7E /* Build configuration list for PBXNativeTarget "instabtbu for mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02A6C221A43CE9000049A7E /* Debug */,
+				C02A6C231A43CE9000049A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C02A6C241A43CE9000049A7E /* Build configuration list for PBXNativeTarget "instabtbu for macTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02A6C251A43CE9000049A7E /* Debug */,
+				C02A6C261A43CE9000049A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C02A6BFD1A43CE9000049A7E /* Project object */;
+}
