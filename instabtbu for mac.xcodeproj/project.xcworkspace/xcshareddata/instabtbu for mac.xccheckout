@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>AB6AEBCA-55BD-425E-AEC2-3343098CAD69</string>
 	<key>IDESourceControlProjectName</key>
-	<string>instabtbu for mac</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>B95757E655E781E5358C160E0ED37632FC69A1AF</key>
 		<string>https://github.com/ypwhs/instabtbu-for-mac.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>instabtbu for mac.xcodeproj</string>
+	<string>instabtbu for mac.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>B95757E655E781E5358C160E0ED37632FC69A1AF</key>
