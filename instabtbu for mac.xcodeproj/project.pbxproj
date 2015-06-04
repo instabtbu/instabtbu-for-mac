@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1C70FB81B20204D00C240FD /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C70FB31B20204D00C240FD /* ysocket.swift */; };
+		A1C70FB91B20204D00C240FD /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = A1C70FB41B20204D00C240FD /* ytcpsocket.c */; };
+		A1C70FBA1B20204D00C240FD /* ytcpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C70FB51B20204D00C240FD /* ytcpsocket.swift */; };
+		A1C70FBB1B20204D00C240FD /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = A1C70FB61B20204D00C240FD /* yudpsocket.c */; };
+		A1C70FBC1B20204D00C240FD /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C70FB71B20204D00C240FD /* yudpsocket.swift */; };
+		A1C70FBE1B20206000C240FD /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C70FBD1B20206000C240FD /* Common.swift */; };
 		C02A6C0B1A43CE9000049A7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02A6C0A1A43CE9000049A7E /* AppDelegate.swift */; };
 		C02A6C0D1A43CE9000049A7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02A6C0C1A43CE9000049A7E /* ViewController.swift */; };
 		C02A6C0F1A43CE9000049A7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02A6C0E1A43CE9000049A7E /* Images.xcassets */; };
@@ -15,8 +21,6 @@
 		C02A6C301A43CEC200049A7E /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C02A6C281A43CEC200049A7E /* libssl.a */; };
 		C02A6C311A43CEC200049A7E /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C02A6C291A43CEC200049A7E /* libcrypto.a */; };
 		C02A6C321A43CEC200049A7E /* oc.m in Sources */ = {isa = PBXBuildFile; fileRef = C02A6C2B1A43CEC200049A7E /* oc.m */; };
-		C02A6C331A43CEC200049A7E /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = C02A6C2C1A43CEC200049A7E /* ytcpsocket.c */; };
-		C02A6C341A43CEC200049A7E /* ytcpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02A6C2D1A43CEC200049A7E /* ytcpsocket.swift */; };
 		C02A6C351A43CEC200049A7E /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C02A6C2F1A43CEC200049A7E /* GCDAsyncUdpSocket.m */; };
 		C02A6C381A43CECF00049A7E /* testc.c in Sources */ = {isa = PBXBuildFile; fileRef = C02A6C361A43CECF00049A7E /* testc.c */; };
 /* End PBXBuildFile section */
@@ -32,6 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A1C70FB31B20204D00C240FD /* ysocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ysocket.swift; sourceTree = "<group>"; };
+		A1C70FB41B20204D00C240FD /* ytcpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ytcpsocket.c; sourceTree = "<group>"; };
+		A1C70FB51B20204D00C240FD /* ytcpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ytcpsocket.swift; sourceTree = "<group>"; };
+		A1C70FB61B20204D00C240FD /* yudpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yudpsocket.c; sourceTree = "<group>"; };
+		A1C70FB71B20204D00C240FD /* yudpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yudpsocket.swift; sourceTree = "<group>"; };
+		A1C70FBD1B20206000C240FD /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		C02A6C051A43CE9000049A7E /* instabtbu for mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "instabtbu for mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02A6C091A43CE9000049A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C02A6C0A1A43CE9000049A7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,8 +56,6 @@
 		C02A6C291A43CEC200049A7E /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
 		C02A6C2A1A43CEC200049A7E /* oc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oc.h; sourceTree = "<group>"; };
 		C02A6C2B1A43CEC200049A7E /* oc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oc.m; sourceTree = "<group>"; };
-		C02A6C2C1A43CEC200049A7E /* ytcpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ytcpsocket.c; sourceTree = "<group>"; };
-		C02A6C2D1A43CEC200049A7E /* ytcpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ytcpsocket.swift; sourceTree = "<group>"; };
 		C02A6C2E1A43CEC200049A7E /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
 		C02A6C2F1A43CEC200049A7E /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 		C02A6C361A43CECF00049A7E /* testc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testc.c; sourceTree = "<group>"; };
@@ -102,8 +110,12 @@
 				C02A6C291A43CEC200049A7E /* libcrypto.a */,
 				C02A6C2A1A43CEC200049A7E /* oc.h */,
 				C02A6C2B1A43CEC200049A7E /* oc.m */,
-				C02A6C2C1A43CEC200049A7E /* ytcpsocket.c */,
-				C02A6C2D1A43CEC200049A7E /* ytcpsocket.swift */,
+				A1C70FB31B20204D00C240FD /* ysocket.swift */,
+				A1C70FB41B20204D00C240FD /* ytcpsocket.c */,
+				A1C70FB51B20204D00C240FD /* ytcpsocket.swift */,
+				A1C70FB61B20204D00C240FD /* yudpsocket.c */,
+				A1C70FB71B20204D00C240FD /* yudpsocket.swift */,
+				A1C70FBD1B20206000C240FD /* Common.swift */,
 				C02A6C361A43CECF00049A7E /* testc.c */,
 				C02A6C371A43CECF00049A7E /* testc.h */,
 				C02A6C2E1A43CEC200049A7E /* GCDAsyncUdpSocket.h */,
@@ -239,13 +251,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1C70FB81B20204D00C240FD /* ysocket.swift in Sources */,
 				C02A6C321A43CEC200049A7E /* oc.m in Sources */,
 				C02A6C381A43CECF00049A7E /* testc.c in Sources */,
 				C02A6C0D1A43CE9000049A7E /* ViewController.swift in Sources */,
-				C02A6C331A43CEC200049A7E /* ytcpsocket.c in Sources */,
+				A1C70FBE1B20206000C240FD /* Common.swift in Sources */,
+				A1C70FBA1B20204D00C240FD /* ytcpsocket.swift in Sources */,
+				A1C70FBB1B20204D00C240FD /* yudpsocket.c in Sources */,
+				A1C70FBC1B20204D00C240FD /* yudpsocket.swift in Sources */,
 				C02A6C0B1A43CE9000049A7E /* AppDelegate.swift in Sources */,
 				C02A6C351A43CEC200049A7E /* GCDAsyncUdpSocket.m in Sources */,
-				C02A6C341A43CEC200049A7E /* ytcpsocket.swift in Sources */,
+				A1C70FB91B20204D00C240FD /* ytcpsocket.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

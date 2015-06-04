@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D2134" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6254"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7706"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -146,7 +145,7 @@
                             </button>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8MO-ef-edY">
                                 <rect key="frame" x="20" y="326" width="288" height="105"/>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="zhuangtai0" id="6Et-oB-s6c"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="shangwang_weilianjie.png" id="6Et-oB-s6c"/>
                             </imageView>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FAA-as-nZa">
                                 <rect key="frame" x="282" y="352" width="14" height="19"/>
@@ -246,7 +245,7 @@
         <image name="force" width="300" height="304"/>
         <image name="num" width="75" height="75"/>
         <image name="psw" width="75" height="75"/>
-        <image name="zhuangtai0" width="1899" height="693"/>
+        <image name="shangwang_weilianjie.png" width="1899" height="693"/>
         <image name="zidongcha0" width="300" height="150"/>
         <image name="zidongdenglu0" width="300" height="150"/>
     </resources>
