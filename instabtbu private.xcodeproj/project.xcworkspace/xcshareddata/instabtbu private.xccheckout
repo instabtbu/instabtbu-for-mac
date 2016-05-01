@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4B78A2B9-1B78-4015-82DE-E780E9208FC2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>instabtbu private</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B95757E655E781E5358C160E0ED37632FC69A1AF</key>
+		<string>https://github.com/ypwhs/instabtbu-for-mac.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>instabtbu private.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B95757E655E781E5358C160E0ED37632FC69A1AF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ypwhs/instabtbu-for-mac.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B95757E655E781E5358C160E0ED37632FC69A1AF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B95757E655E781E5358C160E0ED37632FC69A1AF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>instabtbu%20private</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -7,7 +7,7 @@
 //
 
 #import "oc.h"
-
+#import "NU.h"
 
 @implementation oc
 - (NSString *) getIP
@@ -40,6 +40,23 @@
     NSStringEncoding enc = CFStringConvertEncodingToNSStringEncoding(kCFStringEncodingGB_18030_2000);
     NSString *retStr = [[NSString alloc] initWithData:data encoding:enc];
     
+    return retStr;
+}
+
+- (NSString *)iPOSTwithurl:(NSString *)inurl withpost:(NSString *)inpost
+{
+    NSURL *url = [NSURL URLWithString:[inurl URLEncodedString]];
+    NSData *postData = [inpost dataUsingEncoding:NSUTF8StringEncoding];
+    
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:30];
+    [request setHTTPMethod:@"POST"];
+    [request setHTTPBody:postData];
+    
+    //异步发送request，成功后会得到服务器返回的数据 GB2312
+    NSData *returnData = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
+    //NSData *data = [NSData dataWithContentsOfURL:url];
+    NSStringEncoding enc = CFStringConvertEncodingToNSStringEncoding(kCFStringEncodingGB_18030_2000);
+    NSString *retStr = [[NSString alloc] initWithData:returnData encoding:enc];
     return retStr;
 }
 

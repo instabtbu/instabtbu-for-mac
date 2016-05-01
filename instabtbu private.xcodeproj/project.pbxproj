@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A15316FE1B2596A10006503A /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A15316FD1B2596A10006503A /* GCDAsyncUdpSocket.m */; };
 		A1C70FB81B20204D00C240FD /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C70FB31B20204D00C240FD /* ysocket.swift */; };
 		A1C70FB91B20204D00C240FD /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = A1C70FB41B20204D00C240FD /* ytcpsocket.c */; };
 		A1C70FBA1B20204D00C240FD /* ytcpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C70FB51B20204D00C240FD /* ytcpsocket.swift */; };
 		A1C70FBB1B20204D00C240FD /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = A1C70FB61B20204D00C240FD /* yudpsocket.c */; };
 		A1C70FBC1B20204D00C240FD /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C70FB71B20204D00C240FD /* yudpsocket.swift */; };
 		A1C70FBE1B20206000C240FD /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C70FBD1B20206000C240FD /* Common.swift */; };
+		A1DE16691B25366C00CEB3F6 /* NU.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DE16681B25366C00CEB3F6 /* NU.m */; };
+		A1E1BC861BCEAB7700FAFBE3 /* openssl in Resources */ = {isa = PBXBuildFile; fileRef = A1E1BC851BCEAB7700FAFBE3 /* openssl */; settings = {ASSET_TAGS = (); }; };
 		C02A6C0B1A43CE9000049A7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02A6C0A1A43CE9000049A7E /* AppDelegate.swift */; };
 		C02A6C0D1A43CE9000049A7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02A6C0C1A43CE9000049A7E /* ViewController.swift */; };
 		C02A6C0F1A43CE9000049A7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02A6C0E1A43CE9000049A7E /* Images.xcassets */; };
@@ -21,7 +24,6 @@
 		C02A6C301A43CEC200049A7E /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C02A6C281A43CEC200049A7E /* libssl.a */; };
 		C02A6C311A43CEC200049A7E /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C02A6C291A43CEC200049A7E /* libcrypto.a */; };
 		C02A6C321A43CEC200049A7E /* oc.m in Sources */ = {isa = PBXBuildFile; fileRef = C02A6C2B1A43CEC200049A7E /* oc.m */; };
-		C02A6C351A43CEC200049A7E /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C02A6C2F1A43CEC200049A7E /* GCDAsyncUdpSocket.m */; };
 		C02A6C381A43CECF00049A7E /* testc.c in Sources */ = {isa = PBXBuildFile; fileRef = C02A6C361A43CECF00049A7E /* testc.c */; };
 /* End PBXBuildFile section */
 
@@ -36,19 +38,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A15316FC1B2596A10006503A /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		A15316FD1B2596A10006503A /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 		A1C70FB31B20204D00C240FD /* ysocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ysocket.swift; sourceTree = "<group>"; };
 		A1C70FB41B20204D00C240FD /* ytcpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ytcpsocket.c; sourceTree = "<group>"; };
 		A1C70FB51B20204D00C240FD /* ytcpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ytcpsocket.swift; sourceTree = "<group>"; };
 		A1C70FB61B20204D00C240FD /* yudpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yudpsocket.c; sourceTree = "<group>"; };
 		A1C70FB71B20204D00C240FD /* yudpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yudpsocket.swift; sourceTree = "<group>"; };
 		A1C70FBD1B20206000C240FD /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
-		C02A6C051A43CE9000049A7E /* instabtbu for mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "instabtbu for mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1DE16671B25366C00CEB3F6 /* NU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NU.h; sourceTree = "<group>"; };
+		A1DE16681B25366C00CEB3F6 /* NU.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NU.m; sourceTree = "<group>"; };
+		A1E1BC851BCEAB7700FAFBE3 /* openssl */ = {isa = PBXFileReference; lastKnownFileType = folder; path = openssl; sourceTree = "<group>"; };
+		C02A6C051A43CE9000049A7E /* instabtbu private.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "instabtbu private.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02A6C091A43CE9000049A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C02A6C0A1A43CE9000049A7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C02A6C0C1A43CE9000049A7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C02A6C0E1A43CE9000049A7E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C02A6C111A43CE9000049A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C02A6C171A43CE9000049A7E /* instabtbu for macTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "instabtbu for macTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02A6C171A43CE9000049A7E /* instabtbu privateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "instabtbu privateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02A6C1C1A43CE9000049A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C02A6C1D1A43CE9000049A7E /* instabtbu_for_macTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instabtbu_for_macTests.swift; sourceTree = "<group>"; };
 		C02A6C271A43CEC000049A7E /* instabtbu for mac-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "instabtbu for mac-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -56,8 +63,6 @@
 		C02A6C291A43CEC200049A7E /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
 		C02A6C2A1A43CEC200049A7E /* oc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oc.h; sourceTree = "<group>"; };
 		C02A6C2B1A43CEC200049A7E /* oc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oc.m; sourceTree = "<group>"; };
-		C02A6C2E1A43CEC200049A7E /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
-		C02A6C2F1A43CEC200049A7E /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 		C02A6C361A43CECF00049A7E /* testc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testc.c; sourceTree = "<group>"; };
 		C02A6C371A43CECF00049A7E /* testc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testc.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,8 +99,8 @@
 		C02A6C061A43CE9000049A7E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C02A6C051A43CE9000049A7E /* instabtbu for mac.app */,
-				C02A6C171A43CE9000049A7E /* instabtbu for macTests.xctest */,
+				C02A6C051A43CE9000049A7E /* instabtbu private.app */,
+				C02A6C171A43CE9000049A7E /* instabtbu privateTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +108,7 @@
 		C02A6C071A43CE9000049A7E /* instabtbu for mac */ = {
 			isa = PBXGroup;
 			children = (
+				A1E1BC851BCEAB7700FAFBE3 /* openssl */,
 				C02A6C0A1A43CE9000049A7E /* AppDelegate.swift */,
 				C02A6C0C1A43CE9000049A7E /* ViewController.swift */,
 				C02A6C101A43CE9000049A7E /* Main.storyboard */,
@@ -110,6 +116,10 @@
 				C02A6C291A43CEC200049A7E /* libcrypto.a */,
 				C02A6C2A1A43CEC200049A7E /* oc.h */,
 				C02A6C2B1A43CEC200049A7E /* oc.m */,
+				A1DE16671B25366C00CEB3F6 /* NU.h */,
+				A1DE16681B25366C00CEB3F6 /* NU.m */,
+				A15316FC1B2596A10006503A /* GCDAsyncUdpSocket.h */,
+				A15316FD1B2596A10006503A /* GCDAsyncUdpSocket.m */,
 				A1C70FB31B20204D00C240FD /* ysocket.swift */,
 				A1C70FB41B20204D00C240FD /* ytcpsocket.c */,
 				A1C70FB51B20204D00C240FD /* ytcpsocket.swift */,
@@ -118,8 +128,6 @@
 				A1C70FBD1B20206000C240FD /* Common.swift */,
 				C02A6C361A43CECF00049A7E /* testc.c */,
 				C02A6C371A43CECF00049A7E /* testc.h */,
-				C02A6C2E1A43CEC200049A7E /* GCDAsyncUdpSocket.h */,
-				C02A6C2F1A43CEC200049A7E /* GCDAsyncUdpSocket.m */,
 				C02A6C0E1A43CE9000049A7E /* Images.xcassets */,
 				C02A6C081A43CE9000049A7E /* Supporting Files */,
 				C02A6C271A43CEC000049A7E /* instabtbu for mac-Bridging-Header.h */,
@@ -155,9 +163,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C02A6C041A43CE9000049A7E /* instabtbu for mac */ = {
+		C02A6C041A43CE9000049A7E /* instabtbu private */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C02A6C211A43CE9000049A7E /* Build configuration list for PBXNativeTarget "instabtbu for mac" */;
+			buildConfigurationList = C02A6C211A43CE9000049A7E /* Build configuration list for PBXNativeTarget "instabtbu private" */;
 			buildPhases = (
 				C02A6C011A43CE9000049A7E /* Sources */,
 				C02A6C021A43CE9000049A7E /* Frameworks */,
@@ -167,14 +175,14 @@
 			);
 			dependencies = (
 			);
-			name = "instabtbu for mac";
+			name = "instabtbu private";
 			productName = "instabtbu for mac";
-			productReference = C02A6C051A43CE9000049A7E /* instabtbu for mac.app */;
+			productReference = C02A6C051A43CE9000049A7E /* instabtbu private.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C02A6C161A43CE9000049A7E /* instabtbu for macTests */ = {
+		C02A6C161A43CE9000049A7E /* instabtbu privateTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C02A6C241A43CE9000049A7E /* Build configuration list for PBXNativeTarget "instabtbu for macTests" */;
+			buildConfigurationList = C02A6C241A43CE9000049A7E /* Build configuration list for PBXNativeTarget "instabtbu privateTests" */;
 			buildPhases = (
 				C02A6C131A43CE9000049A7E /* Sources */,
 				C02A6C141A43CE9000049A7E /* Frameworks */,
@@ -185,9 +193,9 @@
 			dependencies = (
 				C02A6C191A43CE9000049A7E /* PBXTargetDependency */,
 			);
-			name = "instabtbu for macTests";
+			name = "instabtbu privateTests";
 			productName = "instabtbu for macTests";
-			productReference = C02A6C171A43CE9000049A7E /* instabtbu for macTests.xctest */;
+			productReference = C02A6C171A43CE9000049A7E /* instabtbu privateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -196,7 +204,8 @@
 		C02A6BFD1A43CE9000049A7E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "杨培文";
 				TargetAttributes = {
 					C02A6C041A43CE9000049A7E = {
@@ -208,12 +217,11 @@
 					};
 				};
 			};
-			buildConfigurationList = C02A6C001A43CE9000049A7E /* Build configuration list for PBXProject "instabtbu for mac" */;
+			buildConfigurationList = C02A6C001A43CE9000049A7E /* Build configuration list for PBXProject "instabtbu private" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 			);
 			mainGroup = C02A6BFC1A43CE9000049A7E;
@@ -221,8 +229,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C02A6C041A43CE9000049A7E /* instabtbu for mac */,
-				C02A6C161A43CE9000049A7E /* instabtbu for macTests */,
+				C02A6C041A43CE9000049A7E /* instabtbu private */,
+				C02A6C161A43CE9000049A7E /* instabtbu privateTests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1E1BC861BCEAB7700FAFBE3 /* openssl in Resources */,
 				C02A6C0F1A43CE9000049A7E /* Images.xcassets in Resources */,
 				C02A6C121A43CE9000049A7E /* Main.storyboard in Resources */,
 			);
@@ -253,14 +262,15 @@
 			files = (
 				A1C70FB81B20204D00C240FD /* ysocket.swift in Sources */,
 				C02A6C321A43CEC200049A7E /* oc.m in Sources */,
+				A1DE16691B25366C00CEB3F6 /* NU.m in Sources */,
 				C02A6C381A43CECF00049A7E /* testc.c in Sources */,
+				A15316FE1B2596A10006503A /* GCDAsyncUdpSocket.m in Sources */,
 				C02A6C0D1A43CE9000049A7E /* ViewController.swift in Sources */,
 				A1C70FBE1B20206000C240FD /* Common.swift in Sources */,
 				A1C70FBA1B20204D00C240FD /* ytcpsocket.swift in Sources */,
 				A1C70FBB1B20204D00C240FD /* yudpsocket.c in Sources */,
 				A1C70FBC1B20204D00C240FD /* yudpsocket.swift in Sources */,
 				C02A6C0B1A43CE9000049A7E /* AppDelegate.swift in Sources */,
-				C02A6C351A43CEC200049A7E /* GCDAsyncUdpSocket.m in Sources */,
 				A1C70FB91B20204D00C240FD /* ytcpsocket.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,7 +288,7 @@
 /* Begin PBXTargetDependency section */
 		C02A6C191A43CE9000049A7E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C02A6C041A43CE9000049A7E /* instabtbu for mac */;
+			target = C02A6C041A43CE9000049A7E /* instabtbu private */;
 			targetProxy = C02A6C181A43CE9000049A7E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -315,6 +325,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -332,6 +343,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-lz";
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -368,6 +381,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-lz";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -387,7 +402,8 @@
 					mac,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.instabtbu.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "instabtbu private";
 				SWIFT_OBJC_BRIDGING_HEADER = "instabtbu for mac/instabtbu for mac-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -408,7 +424,8 @@
 					mac,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.instabtbu.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "instabtbu private";
 				SWIFT_OBJC_BRIDGING_HEADER = "instabtbu for mac/instabtbu for mac-Bridging-Header.h";
 			};
 			name = Release;
@@ -428,7 +445,8 @@
 				);
 				INFOPLIST_FILE = "instabtbu for macTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.instabtbu.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "instabtbu privateTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instabtbu for mac.app/Contents/MacOS/instabtbu for mac";
 			};
 			name = Debug;
@@ -444,7 +462,8 @@
 				);
 				INFOPLIST_FILE = "instabtbu for macTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.instabtbu.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "instabtbu privateTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instabtbu for mac.app/Contents/MacOS/instabtbu for mac";
 			};
 			name = Release;
@@ -452,7 +471,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C02A6C001A43CE9000049A7E /* Build configuration list for PBXProject "instabtbu for mac" */ = {
+		C02A6C001A43CE9000049A7E /* Build configuration list for PBXProject "instabtbu private" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C02A6C1F1A43CE9000049A7E /* Debug */,
@@ -461,7 +480,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C02A6C211A43CE9000049A7E /* Build configuration list for PBXNativeTarget "instabtbu for mac" */ = {
+		C02A6C211A43CE9000049A7E /* Build configuration list for PBXNativeTarget "instabtbu private" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C02A6C221A43CE9000049A7E /* Debug */,
@@ -470,7 +489,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C02A6C241A43CE9000049A7E /* Build configuration list for PBXNativeTarget "instabtbu for macTests" */ = {
+		C02A6C241A43CE9000049A7E /* Build configuration list for PBXNativeTarget "instabtbu privateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C02A6C251A43CE9000049A7E /* Debug */,

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0630"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C02A6C041A43CE9000049A7E"
-               BuildableName = "instabtbu for mac.app"
-               BlueprintName = "instabtbu for mac"
-               ReferencedContainer = "container:instabtbu for mac.xcodeproj">
+               BuildableName = "instabtbu private.app"
+               BlueprintName = "instabtbu private"
+               ReferencedContainer = "container:instabtbu private.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C02A6C161A43CE9000049A7E"
-               BuildableName = "instabtbu for macTests.xctest"
-               BlueprintName = "instabtbu for macTests"
-               ReferencedContainer = "container:instabtbu for mac.xcodeproj">
+               BuildableName = "instabtbu privateTests.xctest"
+               BlueprintName = "instabtbu privateTests"
+               ReferencedContainer = "container:instabtbu private.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C02A6C161A43CE9000049A7E"
-               BuildableName = "instabtbu for macTests.xctest"
-               BlueprintName = "instabtbu for macTests"
-               ReferencedContainer = "container:instabtbu for mac.xcodeproj">
+               BuildableName = "instabtbu privateTests.xctest"
+               BlueprintName = "instabtbu privateTests"
+               ReferencedContainer = "container:instabtbu private.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,11 +57,13 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C02A6C041A43CE9000049A7E"
-            BuildableName = "instabtbu for mac.app"
-            BlueprintName = "instabtbu for mac"
-            ReferencedContainer = "container:instabtbu for mac.xcodeproj">
+            BuildableName = "instabtbu private.app"
+            BlueprintName = "instabtbu private"
+            ReferencedContainer = "container:instabtbu private.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -71,15 +73,16 @@
       buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C02A6C041A43CE9000049A7E"
-            BuildableName = "instabtbu for mac.app"
-            BlueprintName = "instabtbu for mac"
-            ReferencedContainer = "container:instabtbu for mac.xcodeproj">
+            BuildableName = "instabtbu private.app"
+            BlueprintName = "instabtbu private"
+            ReferencedContainer = "container:instabtbu private.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +99,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C02A6C041A43CE9000049A7E"
-            BuildableName = "instabtbu for mac.app"
-            BlueprintName = "instabtbu for mac"
-            ReferencedContainer = "container:instabtbu for mac.xcodeproj">
+            BuildableName = "instabtbu private.app"
+            BlueprintName = "instabtbu private"
+            ReferencedContainer = "container:instabtbu private.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

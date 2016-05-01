@@ -14,4 +14,6 @@
 @interface oc : NSObject
 - (NSString*)getIP;
 - (NSString *)gb2312:(NSData*)data;
+- (NSString *)iPOSTwithurl:(NSString *)inurl withpost:(NSString *)inpost;
+
 @end
